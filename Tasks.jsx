@@ -19,10 +19,10 @@ function Tasks() {
      {
        UNIQUE_STATUT.sort().map((unStatut,id)=>(
         <div className="col" key={id}> 
-        {unStatut===1 && <h3>TODO</h3>}
-        {unStatut===2 && <h3>WIP</h3>}
-        {unStatut===3 && <h3>TEST</h3>}
-        {unStatut===4 && <h3>DONE</h3>}
+        {unStatut===1 && <h3>Carte 1</h3>}
+        {unStatut===2 && <h3>Carte 2</h3>}
+        {unStatut===3 && <h3>Carte 3</h3>}
+        {unStatut===4 && <h3>Carte 4</h3>}
         {tasks
         .filter(task => task.statut === unStatut)
         .map((task,id)=> <TaskItem task={task} key={id}

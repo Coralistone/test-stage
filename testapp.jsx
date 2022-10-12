@@ -1,4 +1,4 @@
-import React, { useSate} from 'react;
+import React, { useSate} from 'react';
 import "./App.css";
 import Affichage from "./component/Affichage";
 import Choix from "./component/Choix";

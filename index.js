@@ -1,13 +1,13 @@
 function choix() {
     reset = () => {
-        this.setState({ civility: "" });
+        this.setState({ choix: "" });
     };
     this.reset;
 }
 
 function choix2() {
-    setCivility = civility => {
-        this.setState({ civility: civility });
+    setChoix = choix => {
+        this.setState({ choix: choix });
     };
-    choix2 => this.setCivility("like");
+    choix2 => this.setChoix("like");
 }

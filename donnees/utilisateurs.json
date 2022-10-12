@@ -1,0 +1,52 @@
+{
+    "user": [{
+            "_id": "62038522826470cf962ab64f",
+            "name": "Allison Richards",
+            "email": "allisonrichards@caxt.com",
+            "phone": "+1 (886) 428-2538",
+            "address": "484 Story Court, Staples, Hawaii, 532"
+        },
+        {
+            "_id": "62038522749fd3a30fc806b6",
+            "name": "Ernestine Hutchinson",
+            "email": "ernestinehutchinson@caxt.com",
+            "phone": "+1 (946) 553-3268",
+            "address": "220 Canda Avenue, Geyserville, Washington, 1836"
+        },
+        {
+            "_id": "620385221ab6096284551f50",
+            "name": "Wilder Terrell",
+            "email": "wilderterrell@caxt.com",
+            "phone": "+1 (986) 462-3999",
+            "address": "993 Beaumont Street, Caln, Iowa, 7917"
+        },
+        {
+            "_id": 6.203852201938969e+23,
+            "name": "Lyons Conrad",
+            "email": "lyonsconrad@caxt.com",
+            "phone": "+1 (832) 530-2721",
+            "address": "978 Broome Street, Deputy, Rhode Island, 9809"
+        },
+        {
+            "_id": "6203852201fe045e1952c039",
+            "name": "Nancy Morrow",
+            "email": "nancymorrow@caxt.com",
+            "phone": "+1 (898) 560-3519",
+            "address": "243 Cooke Court, Starks, Palau, 820"
+        },
+        {
+            "_id": "620385222fbaf3f6cc8a07f7",
+            "name": "Myra Riggs",
+            "email": "myrariggs@caxt.com",
+            "phone": "+1 (947) 570-3395",
+            "address": "568 Lester Court, Belleview, Tennessee, 4717"
+        },
+        {
+            "_id": "6203852291bc8759cad0ea34",
+            "name": "Carmela Justice",
+            "email": "carmelajustice@caxt.com",
+            "phone": "+1 (842) 568-2537",
+            "address": "169 Fiske Place, Sylvanite, North Carolina, 8927"
+        }
+    ]
+}

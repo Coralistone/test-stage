@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)file:///C:/Users/miaff/Desktop/index2.html -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="" utf-8="">
+    <link rel="" href="file:///C:/Users/miaff/Desktop/index2.html">
+</head>
+
+<body style="background-color:powderblue;">
+    <nav>
+        <ul>
+            <li>
+                <a href="pagepreccedente.html"> page préccedente</a>
+            </li>
+
+            <li>
+                <a href="teststage.html"> Mon test à réaliser</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 style="text-align:center; color:#ff0000 "> Montrer un peu ce que je sais faire en HTML/CSS </h1>
+
+
+    <br>
+
+
+    <table border="1">
+        <thead>
+            <!-- entete du tableau -->
+            <tr>
+                <th colspan="2"> Acount </th>
+            </tr>
+            <!-- colspan fusionne deuc colones horizontale -->
+            <tr>
+                <!-- on insere des lignes avec cette balise -->
+                <th> Month </th>
+                <th> savings </th>
+            </tr>
+        </thead>
+        <tfoot>
+            <!-- ici c'est le bas de tableau donc la dernière ligne -->
+            <tr>
+                <td>Sum </td>
+                <!--dans une ligne on insère des colonnes avec td -->
+                <td>$180 </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <!-- ici c'est le corps sans la derniere ligne -->
+            <tr>
+                <td>January </td>
+                <!--dans une ligne on insère des colonnes avec td -->
+                <td rowspan="5"> $100 </td>
+                <!--rowspan fusionne deux colonnes verticalement-->
+            </tr>
+            <tr>
+                <td>Febuary </td>
+                <!--dans une ligne on insère des colonnes avec td -->
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+
+    <table border="1">
+        <thead>
+            <!-- entete du tableau -->
+            <tr>
+                <th colspan="4"> Purchased Equipments (June, 2006) </th>
+            </tr>
+            <!-- colspan fusionne deux colones horizontale -->
+
+        </thead>
+        <tfoot>
+            <!-- ici c'est le bas de tableau donc la dernière ligne -->
+            <tr>
+                <th colspan="4"> Purchased Equipments (June, 2006) </th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <!-- ici c'est le corps sans la derniere ligne -->
+
+            <tr>
+
+                <td rowspan="2"> Item Num# </td>
+                <!--dans une ligne on insère des colonnes avec td -->
+                <td rowspan="2"> Item picture</td>
+                <!--rowspan fusionne deux colonnes verticalement-->
+                <td>Item Description</td>
+                <td>price</td>
+
+                <tr>
+                    <!-- on insere des lignes avec cette balise tr -->
+                    <th>shipping Handling, Installation,etc </th>
+                    <th>Expense </th>
+
+                </tr>
+
+            </tr>
+            <tr>
+                <td rowspan="2"> 1. </td>
+                <!--dans une ligne on insère des colonnes avec td -->
+                <td rowspan="2"> </td>
+                <!--rowspan fusionne deux colonnes verticalement-->
+                <td>IBM Clone Computer</td>
+                <td>$400.00</td>
+            </tr>
+
+            <tr>
+
+                <!--dans une ligne on insère des colonnes avec td -->
+                <td>shipping Handling, Installation,etc</td>
+                <td>$20.00</td>
+                <!--rowspan fusionne deux colonnes verticalement-->
+            </tr>
+
+            <tr>
+                <td rowspan="2"> 2. </td>
+                <td rowspan="2"> </td>
+                <td> 1GB RAM Module for Computer</td>
+                <td>$500.00</td>
+            </tr>
+
+            <tr>
+                <td>shipping Handling, Installation,etc</td>
+                <td>$14.00</td>
+            </tr>
+
+
+            <tr>
+
+                <!--dans une ligne on insère des colonnes avec td -->
+            </tr>
+        </tbody>
+    </table>
+
+    </ol>
+</body>
+<form action="https://fr.wikipedia.org/wiki/Uniform_Resource_Identifier" method="post" id="connexion"></form>
+
+<div class="form-group form-group-lg">
+    <label for='email' class="sr-only"> Email address </label>
+    <input type="email" class="form-control no-border" id='email' placeholder=" Email">
+</div>
+
+<div class="form-group form-group-lg">
+    <label for='nom' class="sr-only"> Nom </label>
+    <input type="text" class="form-control " id='nom' placeholder=" LastName">
+</div>
+
+<div class="form-group form-group-lg">
+    <label for='numéro' class="sr-only"> Téléphone </label>
+    <input type="chiffre" class="form-control " id='numéro' placeholder=" Téléphone">
+</div>
+
+<div class="form-group form-group-lg">
+    <label for="prenom" class="sr-only"> Mes motivations pour avoir le stage </label>
+    <textarea class="form-control" id="prenom" rows="3"></textarea>
+</div>
+
+<br>
+
+<select class="form-control" name="departement">
+    <option> Selectionner votre Nationalité</option>
+    <option value="1">Camerounaise</option>
+    <option value="2">Burkinabé</option>
+    <option value="3">Canadienne</option>
+    <option value="1">Francaise</option>
+    <option value="1">Ivoirienne</option>
+</select>
+
+<br>
+<br>
+
+<div class="=form-group form-group-lg">
+    <label class="radio-inline">
+        <input type ="radio" name="civ" id="mr" value="1" checked> Monsieur
+    </label>
+
+    <label class="radio-inline">
+        <input type ="radio" name="civ" id="mme" value="2"> Madame
+
+    </label>
+</div>
+
+<div class="checkbox text-center">
+    <label>
+        <input type="checkbox"> case à cocher
+    </label>
+</div>
+
+<button type="submit" class="btn btn-primary no-border btn-lg btn-block">
+    subcribe
+</button>
+
+
+</html>
