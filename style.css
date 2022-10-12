@@ -1,0 +1,27 @@
+.conteneur {
+    overflow: hidden;
+    border: #f0f8ff;
+}
+
+.bloc {
+    float: left;
+}
+
+.container {
+    border: 5px solid #4591d4;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tache {
+    background-color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.col {
+    background-color: hsla(260, 5%, 89%, 0.925);
+}
